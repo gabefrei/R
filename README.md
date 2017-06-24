@@ -22,8 +22,7 @@ ssh-copy-id <server_user>@<server_ip>
 ```
 or you can use the following line
 
-```cat ~/.ssh/id\_rsa.pub | ssh \<server\_user\>@\<server\_ip\> "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized\_keys"
-``` 
+`cat ~/.ssh/id\_rsa.pub | ssh \<server\_user\>@\<server\_ip\> "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized\_keys"` 
 
 __Please rrefer to [this link](1) for more extensive steps on `ssh-keygen`__
 
